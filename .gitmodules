@@ -1,0 +1,21 @@
+[submodule "inet"]
+	path = inet
+	url = git@github.com:inet-framework/inet.git
+[submodule "SDN4CoRE"]
+	path = SDN4CoRE
+	url = git@github.com:CoRE-RG/SDN4CoRE.git
+[submodule "SOA4CoRE"]
+	path = SOA4CoRE
+	url = git@github.com:CoRE-RG/SOA4CoRE.git
+[submodule "CoRE4INET"]
+	path = CoRE4INET
+	url = git@github.com:CoRE-RG/CoRE4INET.git
+[submodule "FiCo4OMNeT"]
+	path = FiCo4OMNeT
+	url = git@github.com:CoRE-RG/FiCo4OMNeT.git
+[submodule "OpenFlow"]
+	path = OpenFlow
+	url = git@github.com:CoRE-RG/OpenFlow.git
+[submodule "SignalsAndGateways"]
+	path = SignalsAndGateways
+	url = git@github.com:CoRE-RG/SignalsAndGateways.git
