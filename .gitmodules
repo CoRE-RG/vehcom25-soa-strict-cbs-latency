@@ -19,3 +19,6 @@
 [submodule "SignalsAndGateways"]
 	path = SignalsAndGateways
 	url = git@github.com:CoRE-RG/SignalsAndGateways.git
+[submodule "TSNLatencyAnalysis"]
+	path = TSNLatencyAnalysis
+	url = git@github.com:CoRE-RG/TSNLatencyAnalysis.git

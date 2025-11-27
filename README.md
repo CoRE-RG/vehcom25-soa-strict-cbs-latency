@@ -28,8 +28,10 @@ If you use specific simulation models inside this project please refer to the pr
 ### Status
 This project has been tested on Ubuntu 22.04 (+WSL) and Windows 11.
 
-### What comes with this project?
-This project combines multiple frameworks and tools.
+### Frameworks and tools
+
+#### License
+All frameworks are linked as git submodules and come with their own license (usually GPL or LGPL).
 
 #### OMNeT++ Frameworks:
 - [INET Framework](https://github.com/inet-framework/inet)
@@ -41,7 +43,7 @@ This project combines multiple frameworks and tools.
 - [SignalsAndGateway](https://github.com/CoRE-RG/SignalsAndGateway)
 
 #### Worst-Case Latency Analysis:
-
+- [TSNLatencyAnalysis](https://github.com/CoRE-RG/TSNLatencyAnalysis)
 
 ### Initialize Submodules
 Initialize submodules from their respective repositories, recursive is required as the INET framework has multiple submodules itself.
@@ -70,5 +72,5 @@ git submodule update --init --recursive
    * Click yes/ok if asked to use release build for all projects
    * If some frameworks state something about inconsistency just click okay and OMNeT will try to fix it
    * The OMNeT++ Qtenv should start and you can select a configuration, e.g., Study_WFullShaping_SI
-7. Check the frameworks for more details
+7. Check the documentation of the frameworks and OMNeT++ for more details.
 
