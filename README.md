@@ -52,8 +52,13 @@ Initialize submodules from their respective repositories, recursive is required 
 git submodule update --init --recursive
 ```
 
+## Paper Scenarios
+The scenarios CBS Max Latency study and the Car Net study are included in the frameworks. 
+* OMNeT++ simulations are in ```SDN4CoRE/examples/papers/vehcom2025```.
+* TSN standard formulas for latency analysis are in ```TSNLatencyAnalysis/scenarios```
+* Network calculus tools are in ...
 
-## OMNET++ Simulation 
+### OMNET++ Simulation 
 1. Download OMNeT++ 6.0.2
     * [https://omnetpp.org/download](https://omnetpp.org/download)
 2. Install OMNeT++
@@ -73,9 +78,3 @@ git submodule update --init --recursive
    * If some frameworks state something about inconsistency just click okay and OMNeT will try to fix it
    * The OMNeT++ Qtenv should start and you can select a configuration, e.g., Study_WFullShaping_SI
 7. Check the documentation of the frameworks and OMNeT++ for more details.
-
-## Paper Scenarios
-The scenarios CBS Max Latency study and the Car Net study are included in the frameworks. 
-* OMNeT++ simulations are in ```SDN4CoRE/examples/papers/vehcom2025```.
-* TSN standard formulas for latency analysis are in ```TSNLatencyAnalysis/scenarios```
-* Network calculus tools are in ...
