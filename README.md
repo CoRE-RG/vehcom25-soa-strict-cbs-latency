@@ -1,6 +1,6 @@
 # vehcom25-soa-strict-cbs-latency
 Simulation environment and tools for the Paper "Negotiating Strict Latency Limits for Dynamic Real-Time Services in Vehicular Time-Sensitive Networks." 
-Contains tools and simulation frameworks used to evaluate our Time-Sensitive Networking (TSN) integrations for strict latency limits in the automotive Service-Oriented Architecture (SOA). 
+Contains exact versions of tools and simulation frameworks used to evaluate our Time-Sensitive Networking (TSN) integrations for strict latency limits in the automotive Service-Oriented Architecture (SOA). 
 
 ## References
 If you use this project please add the following [reference](https://doi.org/10.1016/j.vehcom.2025.100985)
@@ -44,6 +44,7 @@ All frameworks are linked as git submodules and come with their own license (usu
 
 #### Worst-Case Latency Analysis:
 - [TSNLatencyAnalysis](https://github.com/CoRE-RG/TSNLatencyAnalysis)
+- [DYRECTsn](https://github.com/Kathess/DYRECTsn/tree/haw)
 
 ### Initialize Submodules
 Initialize submodules from their respective repositories, recursive is required as the INET framework has multiple submodules itself.
@@ -56,7 +57,9 @@ git submodule update --init --recursive
 The scenarios CBS Max Latency study and the Car Net study are included in the frameworks. 
 * OMNeT++ simulations are in ```SDN4CoRE/examples/papers/vehcom2025```.
 * TSN standard formulas for latency analysis are in ```TSNLatencyAnalysis/scenarios```
-* Network calculus tools are in ...
+* Network calculus tools are in ```DYRECTsn/scenarios```
+
+Please check out the documentation in the referenced projects.
 
 ### OMNET++ Simulation 
 1. Download OMNeT++ 6.0.2

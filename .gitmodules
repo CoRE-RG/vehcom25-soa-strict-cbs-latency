@@ -22,3 +22,6 @@
 [submodule "TSNLatencyAnalysis"]
 	path = TSNLatencyAnalysis
 	url = git@github.com:CoRE-RG/TSNLatencyAnalysis.git
+[submodule "DYRECTsn"]
+	path = DYRECTsn
+	url = git@github.com:Kathess/DYRECTsn.git
